@@ -1,5 +1,5 @@
 ## Introduction
-I almost do scan every print document (with Android/OneNote/Scan). Those document get a name like "Scan-2023-12-31 12:33.pdf".
+I almost do scan every print document (mostly with Android > OneNote > New document > Scan). Those documents normally get a name like "Scan-2023-12-31 12:33.pdf". So, you never could assume the content of file based on it's filename.
 This program tries to find a reasonable name based on the content of the document.
 It uses 
 - Poppler's **pdf2image** to convert pdf to images
@@ -90,3 +90,5 @@ We could create a Windows executable with Pyinstaller:
 pip install pyinstaller
 pyinstaller --recursive-copy-metadata langchain --recursive-copy-metadata openai --recursive-copy-metadata langchain_huggingface --recursive-copy-metadata langchain_huggingface --recursive-copy-metadata langchain-openai  pdf_rename.py
 ```
+
+Then cd to folder "dist/pdf_rename" and execute pdf_rename.exe
