@@ -84,11 +84,9 @@ But you might have to create a HuggingFace Space.
 
 ### Pyinstaller
 
-We could create a Windows executable with Pyinstaller.
-
-See https://pyinstaller.org/en/stable/usage.html, https://pyinstaller.org/en/v3.3.1/hooks.html and https://pyinstaller.org/en/stable/spec-files.html
-
+We could create a Windows executable with Pyinstaller:
 
 ```python
+pip install pyinstaller
 pyinstaller --recursive-copy-metadata langchain --recursive-copy-metadata openai --recursive-copy-metadata langchain_huggingface --recursive-copy-metadata langchain_huggingface --recursive-copy-metadata langchain-openai  pdf_rename.py
 ```

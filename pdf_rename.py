@@ -1,4 +1,3 @@
-# pyinstaller --recursive-copy-metadata langchain --recursive-copy-metadata openai --recursive-copy-metadata langchain_huggingface --recursive-copy-metadata langchain_huggingface --recursive-copy-metadata langchain-openai  ui6_llm.py
 import os
 import tkinter as tk
 from tkinter import filedialog, ttk, messagebox
