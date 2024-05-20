@@ -8,6 +8,8 @@ It uses
 
 This script is intended to run on Windows platform because for all office related tasks like scanning we work on Windows.
 
+**Note:**  in latest versions of OpenAI, we could directly pass a pdf file. Instead, we chose to scan the pdf file first. We did that due to missing support of some models to process a pdf and to reduce overhead / cost.
+
 
 ## Installation
 
